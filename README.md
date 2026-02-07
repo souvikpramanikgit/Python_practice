@@ -2,6 +2,13 @@
 
 print("-_-"*10+"| Hi,This is souvik |"+"-_-"*10)
 
+### program2.py (Codeforce style(with testcase))
+
+t = int(input())
+for _ in range(t):
+    a, b = map(int, input().split())
+    print(a + b)
+
 ### program3.py (character is present or not)
 
 s = input()
